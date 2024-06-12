@@ -8,10 +8,10 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: favicon.ico
 
-    footer:
-        since:
+    footer: 
+        since: 1234
         customText:
 
     dateFormat:
@@ -20,7 +20,7 @@ params:
 
     sidebar:
         compact: false
-        emoji:
+        emoji: 
         subtitle:
         avatar:
             enabled: true
@@ -28,10 +28,10 @@ params:
             src: img/avatar.png
 
     article:
-        headingAnchor: false
-        math: false
+        headingAnchor: true
+        math: true
         toc: true
-        readingTime: true
+        readingTime: flase
         license:
             enabled: false
             default: Licensed under CC BY-NC-SA 4.0
