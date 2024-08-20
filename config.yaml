@@ -31,7 +31,7 @@ params:
         headingAnchor: true
         math: true
         toc: true
-        readingTime: flase
+        readingTime: false
         license:
             enabled: false
             default: Licensed under CC BY-NC-SA 4.0
